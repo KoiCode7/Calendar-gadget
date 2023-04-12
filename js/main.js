@@ -23,7 +23,7 @@ console.clear();
   }
 
   function getCalendarBody() {
-    const dates = []; //date:日付, day:曜日
+    const dates = [];
     const lastDate = new Date(year, month + 1, 0).getDate();
 
     for (let i = 1; i <= lastDate; i++) {
